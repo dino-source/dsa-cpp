@@ -8,6 +8,131 @@ Each file contains explanations, examples, links to LeetCode problems, and
 time and space complexity analysis for each case — everything one might need
 to train pattern recognition skills.
 
+However, solving LeetCode problems is not only about learning algorithms and
+data structures. The most important skill developed through consistent practice
+is the ability to recognize patterns and systematically approach unfamiliar
+problems.
+
+A strong software engineer does not immediately jump into coding. Instead, they
+follow a structured problem-solving process:
+
+1. **Understand the problem completely**
+   - Read the problem statement carefully.
+   - Identify what the problem is asking for.
+   - Restate the problem in your own words.
+   - Clarify any ambiguities before writing code.
+
+2. **Collect requirements and constraints**
+   - Analyze input size and possible values.
+   - Pay attention to constraints because they often determine the correct
+     algorithm.
+   - Ask questions such as:
+     - How large can the input be?
+     - Is the data sorted?
+     - Can there be duplicates?
+     - Are negative values possible?
+     - Are there memory limitations?
+     - Do we need the fastest possible solution, or is a simpler approach enough?
+
+3. **Think out loud**
+
+   During technical interviews, explaining your thought process is extremely
+   important. Interviewers are not only evaluating the final solution — they
+   want to understand how you approach problems.
+
+   Good candidates communicate their reasoning:
+
+   > "A brute-force solution would compare every element with every other
+   > element, which would be O(n²). Since we need faster lookups, I am thinking
+   > about using a hash table to reduce the lookup time."
+
+   Thinking out loud helps:
+   - demonstrate your problem-solving approach,
+   - receive hints from the interviewer when needed,
+   - catch mistakes before they become implementation problems.
+
+4. **Identify the underlying pattern**
+
+   Instead of treating every problem as completely unique, look for similarities
+   with problems you have already solved.
+
+   Ask yourself:
+   - Have I seen this type of problem before?
+   - What data structure would make this operation efficient?
+   - Is this a lookup problem?
+   - Is this a searching problem?
+   - Is this about maintaining a range or window?
+   - Is this about exploring relationships between nodes?
+   - Does this require remembering previous states?
+
+   Examples:
+   - Fast lookup → **Hash Table**
+   - Comparing elements from both ends → **Two Pointers**
+   - Finding a range satisfying conditions → **Sliding Window**
+   - Searching sorted data → **Binary Search**
+   - Exploring connected structures → **DFS/BFS**
+   - Making decisions based on previous results → **Dynamic Programming**
+
+5. **Choose an approach and validate it**
+
+   Before writing code, pause and ask:
+   - Does this algorithm solve the problem correctly?
+   - Does it handle all constraints?
+   - What is the time complexity?
+   - What is the space complexity?
+   - Is there a simpler or more optimal solution?
+
+   A useful habit is to challenge your own idea:
+
+   > "Am I solving the right problem?"
+
+   > "Am I using the right data structure?"
+
+   > "Could this fail on a corner case?"
+
+6. **Consider edge cases and corner cases**
+
+   Many incorrect solutions fail not because the main algorithm is wrong,
+   but because they ignore unusual inputs.
+
+   Always consider cases such as:
+   - Empty input.
+   - A single element.
+   - Duplicate values.
+   - Extremely large inputs.
+   - Minimum and maximum values.
+   - Already sorted data.
+   - Reverse-sorted data.
+   - Unexpected combinations of values.
+
+7. **Implement carefully and test mentally**
+
+   Before running the code, simulate it manually:
+   - Walk through a small example.
+   - Track variables step by step.
+   - Check whether each operation does what you expect.
+   - Verify that the algorithm reaches the correct result.
+
+   This habit improves both coding accuracy and debugging skills.
+
+8. **Review and extract the pattern**
+
+   After solving a problem, do not stop at "accepted."
+
+   Ask:
+   - Why did this solution work?
+   - What clues suggested this pattern?
+   - What other problems could use the same approach?
+   - What mistakes did I make?
+   - How can I recognize this pattern faster next time?
+
+The goal is not to memorize hundreds of LeetCode solutions.
+
+The goal is to develop the ability to recognize the structure of a problem,
+select the appropriate algorithm, and confidently explain your reasoning.
+
+---
+
 ## What are LeetCode patterns?
 
 **LeetCode patterns are common problem-solving techniques that appear repeatedly across coding interview problems.**
